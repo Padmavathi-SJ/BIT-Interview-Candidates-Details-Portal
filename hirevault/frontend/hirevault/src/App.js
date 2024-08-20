@@ -1,9 +1,10 @@
 import './App.css';
+import LoginPage from './Components/LoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>WELCOME TO HIREVAULT</h1>
+    <div>
+      <LoginPage />
     </div>
   );
 }
